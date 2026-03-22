@@ -14,10 +14,10 @@
     text-align: center;
 }
 .header__title {
-    height: 150px;
     font-size: 36px;
     /* position: relative; */
     line-height: 150px;
+    padding: 57px auto;
 }
 .header__title--line {
     width: 170px;

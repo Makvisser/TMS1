@@ -1,5 +1,5 @@
 .awesome {
-    margin-top: 50px auto 58px;
+    margin: 50px auto 58px;
 }
 
 .awesome__header {
@@ -15,7 +15,6 @@
 .awesome__column {
     display: inline-block;
     width: 370px;
-    height: 383px;
     /* display: flex;
     flex-direction: column;
     align-items: center; */
@@ -30,13 +29,13 @@
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
     font-size: 24px;
-    height: 100px;
     line-height: 100px;
+    padding: 38px auto;
     margin-bottom: 8px;
 }
 .awesome__column-desc {
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
     font-size: 18px;
     height: 105px;
 }
