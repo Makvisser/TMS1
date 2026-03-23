@@ -7,8 +7,9 @@
     border: none;
 }
 .container {
-    max-width: 1170px;
+    max-width: 1190px;
     margin: 0 auto;
+    padding: 10px;
 }
 .header {
     text-align: center;
@@ -17,9 +18,9 @@
     font-size: 36px;
     /* position: relative; */
     line-height: 150px;
-    padding: 57px auto;
+    padding-top: 57px;
 }
-.header__title--line {
+.header__title-line {
     width: 170px;
     height: 1px;
     background-color: #ec7979;

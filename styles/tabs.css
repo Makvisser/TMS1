@@ -1,0 +1,85 @@
+.tabs {
+    margin-bottom: 51px;
+    margin-top: 99px;
+}
+
+.tabs__list {
+    color: #333333;
+    margin-left: 2.5px;
+}
+
+.tabs__item {
+    display: inline-block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    width: 203px;
+    padding: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid #C6CBCD;
+    margin: -1px -2.5px;
+}
+
+.tabs__item--active {
+    border: 1px solid #C6CBCD;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+}
+
+.tabs__line {
+    display: block;
+    width: 564px;
+    height: 1px;
+    background-color: #C6CBCD;
+    bottom: 0;
+    margin-left: auto;
+}
+
+.tabs__content {
+    display: inline-block;
+    width: 670px;
+    min-height: 500px;
+    border: 1px solid #C6CBCD;
+    border-right: none;
+    border-top: none;
+    vertical-align: top;
+    padding-left: 100px;
+}
+
+.tabs__header {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    width: 570px;
+    font-weight: 700;
+    line-height: 124px;
+}
+
+.tabs__text {
+    margin: 27px auto;
+    font-size: 18px;
+}
+
+.tabs__paragraph:not(:last-child) {
+    margin-bottom: 18px;
+}
+
+.tabs__img {
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #C6CBCD;
+    border-left: none;
+    border-top:none;
+    padding-left: 30px;
+}
+
+.tabs__btn {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    width: 270px;
+    height: 58px;
+    background-color: #EC7979;
+    color: #fff;
+    margin-bottom: 54px;
+}

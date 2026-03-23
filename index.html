@@ -1,77 +1,88 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>AXIT</title>
-        <link href="/styles/awesome.css" rel="stylesheet" />
-        <link href="/styles/main.css" rel="stylesheet" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-            rel="stylesheet"
-        />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-            rel="stylesheet"
-        />
-    </head>
-    <body>
-        <div class="container">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AXIT</title>
+    <link href="/styles/main.css" rel="stylesheet" />
+    <link href="/styles/tabs.css" rel="stylesheet" />
+    <link href="/styles/awesome.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <section class="tabs">
+            <div class="tabs__list">
+                <p class="tabs__item  tabs__item--active">Tab 1</p>
+                <p class="tabs__item">Tab 2</p>
+                <p class="tabs__item">Tab 3</p>
+                <div class="tabs__line"></div>
+            </div>
+            <div class="tabs__content">
+                <h2 class="tabs__header">Tabs with soft transitioning effect.</h2>
+                <div class="tabs__text">
+                    <p class="tabs__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                        justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                        penatibus et magnis dis parturient montes.</p>
+                    <p class="tabs__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                        bibendum laoreet.</p>
+                </div>
+                <button class="tabs__btn">Download</button>
+            </div><div class="tabs__img">
+                <img src="/images/tabs_statue.jpg" alt="Statue of Liberty">
+            </div>
+        </section>
         <section class="awesome">
-                <div class="awesome__header header">
-                    <h2 class="header__title">WHY THIS IS AWESOME</h2>
-                    <div class="header__title--line"></div>
-                    <p class="header__description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <div class="awesome__header header">
+                <h2 class="header__title">WHY THIS IS AWESOME</h2>
+                <div class="header__title-line"></div>
+                <p class="header__description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+            </div>
+
+            <div class="awesome__columns">
+                <div class="awesome__column">
+                    <img src="/images/awesome/icon_lamp.svg" alt="awesome_icon1" class="awesome__column-icon" />
+                    <h4 class="awesome__column-title">Thoughtful Design</h4>
+                    <p class="awesome__column-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Aenean euismod bibendum laoreet. Proin gravida
+                        dolor sit amet lacus accumsan et viverra.
                     </p>
                 </div>
 
-                <div class="awesome__columns">
-                    <div class="awesome__column">
-                        <img
-                            src="/images/awesome/icon_lamp.svg"
-                            alt="awesome_icon1"
-                            class="awesome__column-icon"
-                        />
-                        <h4 class="awesome__column-title">Thoughtful Design</h4>
-                        <p class="awesome__column-desc">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Aenean euismod bibendum laoreet. Proin gravida
-                            dolor sit amet lacus accumsan et viverra.
-                        </p>
-                    </div>
-
-                    <div class="awesome__column">
-                        <img
-                            src="/images/awesome/icon_keyboard.svg"
-                            alt="awesome_icon2"
-                            class="awesome__column-icon"
-                        />
-                        <h4 class="awesome__column-title">Thoughtful Design</h4>
-                        <p class="awesome__column-desc">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Aenean euismod bibendum laoreet. Proin gravida
-                            dolor sit amet lacus accumsan et viverra.
-                        </p>
-                    </div>
-
-                    <div class="awesome__column">
-                        <img
-                            src="/images/awesome/icon_storm.svg"
-                            alt="awesome_icon3"
-                            class="awesome__column-icon"
-                        />
-                        <h4 class="awesome__column-title">Thoughtful Design</h4>
-                        <p class="awesome__column-desc">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Aenean euismod bibendum laoreet. Proin gravida
-                            dolor sit amet lacus accumsan et viverra.
-                        </p>
-                    </div>
+                <div class="awesome__column">
+                    <img src="/images/awesome/icon_keyboard.svg" alt="awesome_icon2" class="awesome__column-icon" />
+                    <h4 class="awesome__column-title">Thoughtful Design</h4>
+                    <p class="awesome__column-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Aenean euismod bibendum laoreet. Proin gravida
+                        dolor sit amet lacus accumsan et viverra.
+                    </p>
                 </div>
-            </section>
-        </div>
-    </body>
+
+                <div class="awesome__column">
+                    <img src="/images/awesome/icon_storm.svg" alt="awesome_icon3" class="awesome__column-icon" />
+                    <h4 class="awesome__column-title">Thoughtful Design</h4>
+                    <p class="awesome__column-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Aenean euismod bibendum laoreet. Proin gravida
+                        dolor sit amet lacus accumsan et viverra.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="/js.js"></script>
+</body>
+
 </html>
